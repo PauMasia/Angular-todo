@@ -1,0 +1,18 @@
+<div class="empleado">
+    <h2>Información del Empleado</h2>
+    <p><strong>Nombre:</strong> {{ nombre }}</p>
+    <p><strong>Apellido:</strong> {{ apellido }}</p>
+    <p><strong>Edad:</strong> {{ edad }}</p>
+    <p>Empresa1: {{empresa.value}}</p>
+    <br>
+    Introduce empresa: <input type="text" #empresa>
+    <br>
+    <br>
+    <input type="button" value="Dale!" (ckick)="llamaEmpresa(empresa.value)">
+
+    <p>Empresa2: {{empresa2.value}}</p>
+    <br>
+    Introduce empresa2: <input type="text" #empresa2 (keyup)="0">
+    
+</div>
+  
