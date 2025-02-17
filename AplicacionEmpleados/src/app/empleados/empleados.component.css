@@ -1,0 +1,64 @@
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.container label {
+  display: block;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.container input[type="text"], 
+.container input[type="radio"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.container input[type="radio"] {
+  width: auto;
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+.container p:last-child {
+  font-style: italic;
+  color: #888;
+  text-align: center;
+}
+
+.container > * {
+  margin-bottom: 15px;
+}
+
+.container input:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.container label[for="registro"] {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: normal;
+}

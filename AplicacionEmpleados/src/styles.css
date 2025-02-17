@@ -1,0 +1,43 @@
+/* Estilo básico para el contenedor */
+.container {
+  padding: 20px;
+}
+
+/* Estilo básico para el título */
+.title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para los párrafos */
+.container p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Estilo básico para las etiquetas */
+.container label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Estilo básico para los inputs */
+.container input[type="text"], 
+.container input[type="radio"] {
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+/* Estilo para el texto "No hay nadie registrado" */
+.container p:last-child {
+  font-style: italic;
+  color: gray;
+  text-align: center;
+}
+
+/* Espaciado entre las secciones */
+.container > * {
+  margin-bottom: 15px;
+}
